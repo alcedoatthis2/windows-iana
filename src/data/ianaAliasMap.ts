@@ -805,7 +805,7 @@ export const IANA_ALIAS_MAP = [
     alias: ['Africa/Libreville'],
   },
   {
-    name: 'gaza',
+    name: 'gazastrp',
     description: 'Gaza Strip, Palestinian Territories',
     alias: ['Asia/Gaza'],
   },

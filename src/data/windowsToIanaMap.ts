@@ -168,6 +168,11 @@ export const WINDOWS_TO_IANA_MAP = [
   },
   {
     windowsName: 'US Mountain Standard Time',
+    territory: 'CA',
+    iana: ['America/Creston', 'America/Dawson_Creek', 'America/Fort_Nelson'],
+  },
+  {
+    windowsName: 'US Mountain Standard Time',
     territory: 'MX',
     iana: ['America/Hermosillo'],
   },
@@ -224,13 +229,7 @@ export const WINDOWS_TO_IANA_MAP = [
   {
     windowsName: 'Yukon Standard Time',
     territory: 'CA',
-    iana: [
-      'America/Whitehorse',
-      'America/Creston',
-      'America/Dawson',
-      'America/Dawson_Creek',
-      'America/Fort_Nelson',
-    ],
+    iana: ['America/Whitehorse', 'America/Dawson'],
   },
   {
     windowsName: 'Central America Standard Time',
@@ -877,17 +876,12 @@ export const WINDOWS_TO_IANA_MAP = [
   {
     windowsName: 'UTC',
     territory: '001',
-    iana: ['Etc/GMT'],
-  },
-  {
-    windowsName: 'UTC',
-    territory: 'GL',
-    iana: ['America/Danmarkshavn'],
+    iana: ['Etc/UTC'],
   },
   {
     windowsName: 'UTC',
     territory: 'ZZ',
-    iana: ['Etc/GMT', 'Etc/UTC'],
+    iana: ['Etc/UTC', 'Etc/GMT'],
   },
   {
     windowsName: 'GMT Standard Time',
@@ -953,6 +947,11 @@ export const WINDOWS_TO_IANA_MAP = [
     windowsName: 'Greenwich Standard Time',
     territory: 'GH',
     iana: ['Africa/Accra'],
+  },
+  {
+    windowsName: 'Greenwich Standard Time',
+    territory: 'GL',
+    iana: ['America/Danmarkshavn'],
   },
   {
     windowsName: 'Greenwich Standard Time',
@@ -1406,11 +1405,6 @@ export const WINDOWS_TO_IANA_MAP = [
   },
   {
     windowsName: 'South Africa Standard Time',
-    territory: 'SS',
-    iana: ['Africa/Juba'],
-  },
-  {
-    windowsName: 'South Africa Standard Time',
     territory: 'SZ',
     iana: ['Africa/Mbabane'],
   },
@@ -1483,6 +1477,16 @@ export const WINDOWS_TO_IANA_MAP = [
     windowsName: 'Israel Standard Time',
     territory: 'IL',
     iana: ['Asia/Jerusalem'],
+  },
+  {
+    windowsName: 'South Sudan Standard Time',
+    territory: '001',
+    iana: ['Africa/Juba'],
+  },
+  {
+    windowsName: 'South Sudan Standard Time',
+    territory: 'SS',
+    iana: ['Africa/Juba'],
   },
   {
     windowsName: 'Kaliningrad Standard Time',
