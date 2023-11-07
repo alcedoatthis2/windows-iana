@@ -263,14 +263,13 @@ export const WINDOWS_TO_IANA_MAP = [
     "windowsName": "Mountain Standard Time (Mexico)",
     "territory": "001",
     "iana": [
-      "America/Chihuahua"
+      "America/Mazatlan"
     ]
   },
   {
     "windowsName": "Mountain Standard Time (Mexico)",
     "territory": "MX",
     "iana": [
-      "America/Chihuahua",
       "America/Mazatlan"
     ]
   },
@@ -295,7 +294,7 @@ export const WINDOWS_TO_IANA_MAP = [
     "windowsName": "Mountain Standard Time",
     "territory": "MX",
     "iana": [
-      "America/Ojinaga"
+      "America/Ciudad_Juarez"
     ]
   },
   {
@@ -412,7 +411,8 @@ export const WINDOWS_TO_IANA_MAP = [
     "windowsName": "Central Standard Time",
     "territory": "MX",
     "iana": [
-      "America/Matamoros"
+      "America/Matamoros",
+      "America/Ojinaga"
     ]
   },
   {
@@ -463,7 +463,9 @@ export const WINDOWS_TO_IANA_MAP = [
       "America/Mexico_City",
       "America/Bahia_Banderas",
       "America/Merida",
-      "America/Monterrey"
+      "America/Monterrey",
+      "America/Chihuahua",
+      ""
     ]
   },
   {

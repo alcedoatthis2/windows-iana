@@ -283,13 +283,7 @@ export const IANA_ALIAS_MAP = [
     "description": "Hobart, Australia",
     "alias": [
       "Australia/Hobart",
-      "Australia/Tasmania"
-    ]
-  },
-  {
-    "name": "aukns",
-    "description": "Currie, Australia",
-    "alias": [
+      "Australia/Tasmania",
       "Australia/Currie"
     ]
   },
@@ -612,14 +606,8 @@ export const IANA_ALIAS_MAP = [
     "description": "Edmonton, Canada",
     "alias": [
       "America/Edmonton",
-      "Canada/Mountain"
-    ]
-  },
-  {
-    "name": "caffs",
-    "description": "Rainy River, Canada",
-    "alias": [
-      "America/Rainy_River"
+      "Canada/Mountain",
+      "America/Yellowknife"
     ]
   },
   {
@@ -655,7 +643,8 @@ export const IANA_ALIAS_MAP = [
     "name": "caiql",
     "description": "Iqaluit, Canada",
     "alias": [
-      "America/Iqaluit"
+      "America/Iqaluit",
+      "America/Pangnirtung"
     ]
   },
   {
@@ -663,13 +652,6 @@ export const IANA_ALIAS_MAP = [
     "description": "Moncton, Canada",
     "alias": [
       "America/Moncton"
-    ]
-  },
-  {
-    "name": "capnt",
-    "description": "Pangnirtung, Canada",
-    "alias": [
-      "America/Pangnirtung"
     ]
   },
   {
@@ -697,25 +679,14 @@ export const IANA_ALIAS_MAP = [
     ]
   },
   {
-    "name": "canpg",
-    "description": "Nipigon, Canada",
-    "alias": [
-      "America/Nipigon"
-    ]
-  },
-  {
-    "name": "cathu",
-    "description": "Thunder Bay, Canada",
-    "alias": [
-      "America/Thunder_Bay"
-    ]
-  },
-  {
     "name": "cator",
     "description": "Toronto, Canada",
     "alias": [
       "America/Toronto",
-      "Canada/Eastern"
+      "America/Montreal",
+      "Canada/Eastern",
+      "America/Nipigon",
+      "America/Thunder_Bay"
     ]
   },
   {
@@ -731,7 +702,8 @@ export const IANA_ALIAS_MAP = [
     "description": "Winnipeg, Canada",
     "alias": [
       "America/Winnipeg",
-      "Canada/Central"
+      "Canada/Central",
+      "America/Rainy_River"
     ]
   },
   {
@@ -789,13 +761,6 @@ export const IANA_ALIAS_MAP = [
     "description": "Swift Current, Canada",
     "alias": [
       "America/Swift_Current"
-    ]
-  },
-  {
-    "name": "cayzf",
-    "description": "Yellowknife, Canada",
-    "alias": [
-      "America/Yellowknife"
     ]
   },
   {
@@ -1569,7 +1534,8 @@ export const IANA_ALIAS_MAP = [
     "name": "kipho",
     "description": "Enderbury Island, Kiribati",
     "alias": [
-      "Pacific/Enderbury"
+      "Pacific/Enderbury",
+      "Pacific/Kanton"
     ]
   },
   {
@@ -1931,6 +1897,13 @@ export const IANA_ALIAS_MAP = [
     ]
   },
   {
+    "name": "mxcjs",
+    "description": "Ciudad Juárez, Mexico",
+    "alias": [
+      "America/Ciudad_Juarez"
+    ]
+  },
+  {
     "name": "mxhmo",
     "description": "Hermosillo, Mexico",
     "alias": [
@@ -1989,19 +1962,13 @@ export const IANA_ALIAS_MAP = [
     ]
   },
   {
-    "name": "mxstis",
-    "description": "Santa Isabel (Baja California), Mexico",
-    "alias": [
-      "America/Santa_Isabel"
-    ]
-  },
-  {
     "name": "mxtij",
     "description": "Tijuana, Mexico",
     "alias": [
       "America/Tijuana",
       "America/Ensenada",
-      "Mexico/BajaNorte"
+      "Mexico/BajaNorte",
+      "America/Santa_Isabel"
     ]
   },
   {
@@ -2709,7 +2676,7 @@ export const IANA_ALIAS_MAP = [
   },
   {
     "name": "trist",
-    "description": "Istanbul, Turkey",
+    "description": "Istanbul, Türkiye",
     "alias": [
       "Europe/Istanbul",
       "Asia/Istanbul",
@@ -2747,16 +2714,12 @@ export const IANA_ALIAS_MAP = [
   },
   {
     "name": "uaiev",
-    "description": "Kiev, Ukraine",
+    "description": "Kyiv, Ukraine",
     "alias": [
-      "Europe/Kiev"
-    ]
-  },
-  {
-    "name": "uaozh",
-    "description": "Zaporizhia (Zaporozhye), Ukraine",
-    "alias": [
-      "Europe/Zaporozhye"
+      "Europe/Kiev",
+      "Europe/Kyiv",
+      "Europe/Zaporozhye",
+      "Europe/Uzhgorod"
     ]
   },
   {
@@ -2764,13 +2727,6 @@ export const IANA_ALIAS_MAP = [
     "description": "Simferopol, Ukraine",
     "alias": [
       "Europe/Simferopol"
-    ]
-  },
-  {
-    "name": "uauzh",
-    "description": "Uzhhorod (Uzhgorod), Ukraine",
-    "alias": [
-      "Europe/Uzhgorod"
     ]
   },
   {
@@ -2785,13 +2741,6 @@ export const IANA_ALIAS_MAP = [
     "description": "Wake Island, U.S. Minor Outlying Islands",
     "alias": [
       "Pacific/Wake"
-    ]
-  },
-  {
-    "name": "umjon",
-    "description": "Johnston Atoll, U.S. Minor Outlying Islands",
-    "alias": [
-      "Pacific/Johnston"
     ]
   },
   {
@@ -2870,7 +2819,8 @@ export const IANA_ALIAS_MAP = [
     "description": "Honolulu, United States",
     "alias": [
       "Pacific/Honolulu",
-      "US/Hawaii"
+      "US/Hawaii",
+      "Pacific/Johnston"
     ]
   },
   {

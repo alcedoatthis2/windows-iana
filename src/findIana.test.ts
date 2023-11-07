@@ -20,6 +20,9 @@ it('returns a list of IANA time zones when passed just a Windows time zone name'
   expect(findIana('US Mountain Standard Time')).toEqual([
     'America/Phoenix',
     'US/Arizona',
+    'America/Creston',
+    'America/Dawson_Creek',
+    'America/Fort_Nelson',
     'America/Hermosillo',
     'Etc/GMT+7',
     'MST',
@@ -33,6 +36,7 @@ it('returns a list of IANA time zones when passed just a Windows time zone name'
     'America/Rankin_Inlet',
     'America/Resolute',
     'America/Matamoros',
+    'America/Ojinaga',
     'America/Indiana/Knox',
     'America/Knox_IN',
     'US/Indiana-Starke',
